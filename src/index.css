@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+}
+
+.input{
+  margin: 1rem;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
